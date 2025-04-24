@@ -1,0 +1,17 @@
+Fork of https://github.com/zTrix/webpage2html
+
+- Original code is licensed under [SATA License](LICENSE.orig)
+- All the changes in this fork are licensed under [MIT License](LICENSE)
+
+Changes
+- remove legacy python2 garbage
+- remove unnecessary fluff
+- use std logging
+- async
+- httpx
+- store shared state in a class: shared httpx client and accumulated http errors
+- remove cli
+- ...
+
+TODO:
+Make requests concurrent!!!!?????????????

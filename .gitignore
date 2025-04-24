@@ -1,0 +1,6 @@
+.env.json
+__pycache__/
+dist/
+*.egg-info
+.venv
+cache
